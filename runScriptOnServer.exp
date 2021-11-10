@@ -1,0 +1,14 @@
+set timeout -1
+set N1 [lindex $argv 0]
+set N2 [lindex $argv 1]
+set operation [lindex $argv 2]
+
+spawn ssh bekir@ec2-5-13-161-159.us-west-1.compute.amazonaws.com ./interactiveCalc.sh
+expect "bekir@ec2-5-13-161-159.us-west-1.compute.amazonaws.com's password:" { send "*******\r" }
+
+expect "N1:" { send "$N1\r" }
+expect "N2:" { send "$N2\r" }
+expect "Operation(+, -, *, /):" { send "$operation\r" }
+
+
+interact
