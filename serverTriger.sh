@@ -15,5 +15,4 @@ then
 else
   operation="/"
 fi
-
 expect runScriptOnServer.exp $N1 $N2 "$operation"
