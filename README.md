@@ -1,4 +1,4 @@
-# Running-a-bash-script-on-a-remote-machine-and-interacting-with-it
+# Running-a-shell-script-on-a-remote-machine-and-interacting-with-it
 
 This repository provides information with a simple example to show how to run a script on a remote machine, how to interact with a script and how to automate a job by using crontab. 
 
