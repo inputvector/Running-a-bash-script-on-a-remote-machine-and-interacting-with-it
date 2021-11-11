@@ -32,5 +32,4 @@ else
    echo "Error: wrong operation $Operation"
    exit 1
 fi
-
 echo $result
