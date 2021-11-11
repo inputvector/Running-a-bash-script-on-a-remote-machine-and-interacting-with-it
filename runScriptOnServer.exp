@@ -10,5 +10,4 @@ expect "N1:" { send "$N1\r" }
 expect "N2:" { send "$N2\r" }
 expect "Operation(+, -, *, /):" { send "$operation\r" }
 
-
 interact
